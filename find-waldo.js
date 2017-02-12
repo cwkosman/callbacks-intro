@@ -10,7 +10,8 @@
 function findWaldo(arr, found, name) {
   arr.forEach((person, i) => {
     if (person === name) {
-      found(i, name);   // execute callback
+      // execute callback
+      found(i, name);
     }
   });
 }
